@@ -1,4 +1,4 @@
-package Creational.Singleton;
+package patterns.creational.singleton;
 
 public class LazySingleton {
     private static volatile LazySingleton instance = null;

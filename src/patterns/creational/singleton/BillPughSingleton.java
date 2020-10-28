@@ -1,4 +1,4 @@
-package Creational.Singleton;
+package patterns.creational.singleton;
 
 public class BillPughSingleton {
     private BillPughSingleton(){

@@ -1,4 +1,4 @@
-package Creational.Singleton;
+package patterns.creational.singleton;
 
 public class StaticBlockSingleton {
     private static final StaticBlockSingleton INSTANCE;

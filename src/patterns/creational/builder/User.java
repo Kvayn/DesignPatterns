@@ -1,4 +1,4 @@
-package Creational.Builder;
+package patterns.creational.builder;
 
 public class User {
     private final String firstName;
