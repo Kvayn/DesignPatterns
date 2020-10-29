@@ -2,13 +2,13 @@ package patterns.creational.factory;
 
 public class SmallCar extends Car {
 
-    public SmallCar(){
+    SmallCar(){
         super(CarType.SMALL);
         construct();
     }
 
     @Override
-    public void construct() {
+    protected void construct() {
         System.out.println("Building small car");
     }
 }

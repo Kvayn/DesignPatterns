@@ -22,5 +22,5 @@ public abstract class Car {
     }
 
     // Do subclass level processing in this method
-    public abstract void construct();
+    protected abstract void construct();
 }

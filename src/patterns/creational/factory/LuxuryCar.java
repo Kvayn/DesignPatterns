@@ -2,13 +2,13 @@ package patterns.creational.factory;
 
 public class LuxuryCar extends Car{
 
-    public LuxuryCar(){
+    LuxuryCar(){
         super(CarType.LUXURY);
         construct();
     }
 
     @Override
-    public void construct() {
+    protected void construct() {
         System.out.println("Building luxury car");
         // Add accessories
     }
